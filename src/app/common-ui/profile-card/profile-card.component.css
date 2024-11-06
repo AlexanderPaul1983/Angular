@@ -1,26 +1,28 @@
 .profile-card {
     border: 1px solid var(--light-color);
-    padding: 32px 24px;
+    padding: 16px 12px;
     display: grid;
+    width: 80%;
+    height: 100px;
+    gap: 16px;
     grid-template-columns: 25% 25% 25% 25%;
 }
 .img-card img{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     overflow: hidden;
 }
 .img-card{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 32px;
     
 }
 .item2{
     display: grid;
     grid-template-rows: auto auto;
     align-content: center;
-    justify-content: start;
+    justify-content: center;
     
 }
 .item1{
@@ -33,22 +35,23 @@
 .text-card{
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 10px;
-    padding: 10px;
     align-content: center;
 }
 .text-card p{
-    font-size: 15px;
-
+    font-size: 8px;
+    
 }
 .skils-card{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    border: 2px solid #8a8989b0;
+    border: 1px solid #8a8989b0;
     border-radius: 5px;
-    height: 50px;
-    gap: 2px;
-    
+    height: 30px;
+    gap: 1px;
+    width: 80%;
+}
+.item2 span{
+    font-size: x-small;
 }
 .skils{
     display: grid;
@@ -59,8 +62,22 @@
     border: 1px solid var(--light-color);
     border-radius: 5px;
     text-align: center;
-    padding: 2px;
+    font-size: x-small;
 }
 .buttons-card{
-
+    display: grid;
+    grid-template-columns: auto;
+    width: 80%;
+}
+.main-btn-card{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    justify-content: center;
+    align-content: center;
+}
+.btn-card{
+    border: 1px solid var(--light-color);
+    background-color: rgb(7, 215, 110);
+    color: black;
 }

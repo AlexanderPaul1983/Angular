@@ -7,3 +7,6 @@ body{
     color: var(--light-color);
    
 }
+app-profile-card{
+    margin: 10px;
+}
